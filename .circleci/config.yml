@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "sudo apt install neofetch --fix missing && neofetch"
+          command: "sudo apt install neofetch --fix-missing && neofetch"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
