@@ -26,7 +26,7 @@ ICACLS C:\Windows\Temp /grant Windows2022:F >nul
 ICACLS C:\Windows\installer /grant Windows2022:F >nul
 ICACLS C:\Windows\Temp /grant Windows2022:F >nul
 ICACLS C:\Windows\installer /grant Windows2022:F >nul
-net user Admin Admin \add
+net user Admin Admin /add
 net localgroup Administrators Admin /add
 echo Completed! Please check RDP address in ngrok endpoints. https://dashboard.ngrok.com/cloud-edge/endpoints/ 
 echo User:Admin
