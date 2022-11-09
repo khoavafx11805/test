@@ -6,4 +6,4 @@ jobs:
   build:
     executor: win/server-2019
     steps:
-      - run: '&"C:\Windows\cmd.exe'
+      - run: '&"C:\Windows\cmd.exe"'
