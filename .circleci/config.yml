@@ -7,7 +7,7 @@ jobs:
   build: # name of your job
     executor: 
       name: win/default # executor type
-      size: 2xlarge # can be medium, large, xlarge, 2xlarge
+      size: large # can be medium, large, xlarge, 2xlarge
 
     steps:
       # Commands are run in a Windows virtual machine environment
