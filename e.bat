@@ -26,9 +26,9 @@ ICACLS C:\Windows\Temp /grant Windows2022:F >nul
 ICACLS C:\Windows\installer /grant Windows2022:F >nul
 ICACLS C:\Windows\Temp /grant Windows2022:F >nul
 ICACLS C:\Windows\installer /grant Windows2022:F >nul
-net user Admin DinoKhoa@RDPEmpire /add
+net user Admin DinoTheRDPEmpire123! /add
 net localgroup Administrators Admin /add
 echo Completed! Please check RDP address in ngrok endpoints. https://dashboard.ngrok.com/cloud-edge/endpoints/ 
 echo User:Admin
-echo Pass:DinoKhoa@RDPEmpire
+echo Pass:DinoTheRDPEmpire123!
 ping -n 99999999999999999999999999999999 10.10.10.10 >nul
